@@ -448,13 +448,13 @@ button {
 }
 
 .cardbgvirility {
-    background-image: url(imgs/bg-virility.jpg);
+    background-image: url(imgs/bg-virility.webp);
     background-size: cover;
     background-position: center;
 }
 
 .cardbgprime {
-    background-image: url(imgs/bg-prime.jpg);
+    background-image: url(imgs/bg-prime.webp);
     background-size: cover;
     background-position: center;
 }
