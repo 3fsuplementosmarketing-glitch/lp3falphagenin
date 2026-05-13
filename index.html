@@ -10,18 +10,13 @@
   <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
   <canvas id="particles-canvas"></canvas>
 
-  <!-- ═══════════════════════════════════════════
-       1. NAV / TOPO
-  ═══════════════════════════════════════════ -->
   <nav class="logo-topo" id="navbar">
     <div class="nav-inner">
       <div class="logo">
@@ -30,9 +25,6 @@
     </div>
   </nav>
 
-  <!-- ═══════════════════════════════════════════
-       2. HERO PRINCIPAL
-  ═══════════════════════════════════════════ -->
   <section class="hero" id="home">
     <div class="hero-bg-glow"></div>
     <div class="hero-fog"></div>
@@ -74,9 +66,6 @@
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       3. ESCOLHA SEU FOCO
-  ═══════════════════════════════════════════ -->
   <section class="escolha section-pad" id="escolha">
     <div class="section-glow-top"></div>
     <div class="container">
@@ -88,14 +77,12 @@
 
       <div class="escolha-grid">
 
-        <!-- CARD VIRILITY -->
-        <div class="escolha-card reveal">
+        <div class="escolha-card reveal cardbgvirility">
           <div class="escolha-card-accent virility-accent"></div>
           <div class="escolha-header">
             <span class="escolha-tag virility-tag">VIRILITY</span>
             <h3 class="escolha-nome">Man Intense <strong>Virility</strong></h3>
-            <p class="escolha-desc">Para homens que buscam mais virilidade, confiança, presença e performance masculina.
-            </p>
+            <p class="escolha-desc">Para homens que buscam mais virilidade, confiança, presença e performance masculina.</p>
           </div>
           <ul class="escolha-lista">
             <li>
@@ -126,14 +113,12 @@
           <a href="#checkout-virility" class="btn btn-primary btn-full">Escolher Virility</a>
         </div>
 
-        <!-- CARD PRIME -->
-        <div class="escolha-card reveal">
+        <div class="escolha-card reveal cardbgprime">
           <div class="escolha-card-accent prime-accent"></div>
           <div class="escolha-header">
             <span class="escolha-tag prime-tag">PRIME</span>
             <h3 class="escolha-nome">Man Intense <strong>Prime</strong></h3>
-            <p class="escolha-desc">Para homens que buscam mais energia, disposição, foco e equilíbrio para a rotina.
-            </p>
+            <p class="escolha-desc">Para homens que buscam mais energia, disposição, foco e equilíbrio para a rotina.</p>
           </div>
           <ul class="escolha-lista">
             <li>
@@ -161,16 +146,13 @@
               Ideal para uma rotina mais ativa e equilibrada
             </li>
           </ul>
-          <a href="#checkout-prime" class="btn btn-ghost btn-full">Escolher Prime</a>
+          <a href="#checkout-prime" class="btn btn-ghost btn-full btnprime">Escolher Prime</a>
         </div>
 
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       4. COMPARAÇÃO VIRILITY X PRIME
-  ═══════════════════════════════════════════ -->
   <section class="comparacao section-pad section-dark" id="comparacao">
     <div class="container">
       <div class="section-header reveal">
@@ -179,7 +161,6 @@
         <p class="section-sub">Cada produto tem uma proposta clara. Veja qual faz mais sentido para o seu momento.</p>
       </div>
 
-      <!-- VERSÃO DESKTOP DA TABELA -->
       <div class="comp-desktop">
         <div class="comp-table reveal">
           <div class="comp-header">
@@ -216,7 +197,6 @@
         </div>
       </div>
 
-      <!-- VERSÃO MOBILE EM CARDS -->
       <div class="comp-mobile reveal">
 
         <article class="comp-mobile-card comp-mobile-virility">
@@ -242,41 +222,41 @@
               <strong>Ideal para quem</strong>
               <span>Quer reforçar a vitalidade e a confiança</span>
             </li>
-            <li class="comp-mobile-item" style="padding-bottom: 20px;">
+            <li class="comp-mobile-item comp-mobile-item--last">
               <strong>Formato</strong>
               <span>Sublingual em gotas · 30ml</span>
             </li>
           </ul>
         </article>
 
-        <article class=" comp-mobile-card comp-mobile-prime">
-              <div class="comp-mobile-head">
-                <span class="comp-mobile-tag">PRIME</span>
-                <h3 class="comp-mobile-title">Man Intense <strong>Prime</strong></h3>
-                <p class="comp-mobile-sub">Energia, disposição e equilíbrio diário.</p>
-              </div>
-              <ul class="comp-mobile-list">
-                <li class="comp-mobile-item">
-                  <strong>Foco principal</strong>
-                  <span>Energia e equilíbrio diário</span>
-                </li>
-                <li class="comp-mobile-item">
-                  <strong>Melhor para</strong>
-                  <span>Disposição, foco, vitalidade e rotina ativa</span>
-                </li>
-                <li class="comp-mobile-item">
-                  <strong>Perfil de uso</strong>
-                  <span>Versátil, voltado para uso diário contínuo</span>
-                </li>
-                <li class="comp-mobile-item">
-                  <strong>Ideal para quem</strong>
-                  <span>Quer se sentir mais ativo e constante no dia a dia</span>
-                </li>
-                <li class="comp-mobile-item" style="padding-bottom: 20px;">
-                  <strong>Formato</strong>
-                  <span>Sublingual em gotas · 30ml</span>
-                </li>
-              </ul>
+        <article class="comp-mobile-card comp-mobile-prime">
+          <div class="comp-mobile-head">
+            <span class="comp-mobile-tag">PRIME</span>
+            <h3 class="comp-mobile-title">Man Intense <strong>Prime</strong></h3>
+            <p class="comp-mobile-sub">Energia, disposição e equilíbrio diário.</p>
+          </div>
+          <ul class="comp-mobile-list">
+            <li class="comp-mobile-item">
+              <strong>Foco principal</strong>
+              <span>Energia e equilíbrio diário</span>
+            </li>
+            <li class="comp-mobile-item">
+              <strong>Melhor para</strong>
+              <span>Disposição, foco, vitalidade e rotina ativa</span>
+            </li>
+            <li class="comp-mobile-item">
+              <strong>Perfil de uso</strong>
+              <span>Versátil, voltado para uso diário contínuo</span>
+            </li>
+            <li class="comp-mobile-item">
+              <strong>Ideal para quem</strong>
+              <span>Quer se sentir mais ativo e constante no dia a dia</span>
+            </li>
+            <li class="comp-mobile-item comp-mobile-item--last">
+              <strong>Formato</strong>
+              <span>Sublingual em gotas · 30ml</span>
+            </li>
+          </ul>
         </article>
 
       </div>
@@ -289,9 +269,6 @@
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       5. BENEFÍCIOS DA LINHA MAN INTENSE
-  ═══════════════════════════════════════════ -->
   <section class="benefits section-pad" id="beneficios">
     <div class="section-glow-top"></div>
     <div class="container">
@@ -312,7 +289,6 @@
               </svg>
             </div>
           </div>
-
           <h3>Vitalidade Masculina</h3>
           <p>Suporte para homens que buscam mais presença, confiança e disposição no cotidiano.</p>
         </div>
@@ -327,7 +303,6 @@
               </svg>
             </div>
           </div>
-
           <h3>Energia para o Dia a Dia</h3>
           <p>Uma proposta prática para quem quer manter uma rotina mais ativa e equilibrada.</p>
         </div>
@@ -341,7 +316,6 @@
               </svg>
             </div>
           </div>
-
           <h3>Uso Sublingual em Gotas</h3>
           <p>Formato prático, pensado para encaixar facilmente na rotina sem complicação.</p>
         </div>
@@ -355,7 +329,6 @@
               </svg>
             </div>
           </div>
-
           <h3>Performance e Confiança</h3>
           <p>Produtos desenvolvidos para apoiar uma rotina com mais foco, energia e atitude.</p>
         </div>
@@ -364,9 +337,6 @@
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-     6. FEEDBACKS / DEPOIMENTOS
-═══════════════════════════════════════════ -->
   <section class="testimonials section-pad section-dark" id="depoimentos">
     <div class="container">
       <div class="section-header reveal">
@@ -382,7 +352,6 @@
 
       <div class="testi-grid testi-video-grid">
 
-        <!-- FEEDBACK 1 -->
         <article class="testi-card testi-video-card reveal">
           <div class="testi-video-frame">
             <video class="testi-video js-player" controls playsinline loop preload="metadata"
@@ -391,7 +360,6 @@
               Seu navegador não suporta vídeo.
             </video>
           </div>
-
           <div class="testi-video-content">
             <div class="testi-stars">★★★★★</div>
             <strong>Feedback real de cliente</strong>
@@ -399,7 +367,6 @@
           </div>
         </article>
 
-        <!-- FEEDBACK 2 -->
         <article class="testi-card testi-video-card reveal">
           <div class="testi-video-frame">
             <video class="testi-video js-player" controls playsinline loop preload="metadata"
@@ -408,7 +375,6 @@
               Seu navegador não suporta vídeo.
             </video>
           </div>
-
           <div class="testi-video-content">
             <div class="testi-stars">★★★★★</div>
             <strong>Feedback real de cliente</strong>
@@ -420,9 +386,6 @@
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       7. OFERTAS / PRICING
-  ═══════════════════════════════════════════ -->
   <section class="pricing section-pad" id="pricing">
     <div class="section-glow-top"></div>
     <div class="container">
@@ -435,7 +398,6 @@
 
       <div class="pricing-grid pg-ref">
 
-        <!-- CARD 1: VIRILITY -->
         <div class="price-card pg-card reveal">
           <div class="pg-top">
             <strong class="pg-months">Man Intense Virility</strong>
@@ -443,7 +405,6 @@
           </div>
           <div class="pg-body">
             <div class="pg-product-img">
-              <!-- Substitua por imgs/virility.png -->
               <img class="pg-product-checkout" src="imgs/virility-alpha.webp" alt="Man Intense Virility">
             </div>
             <div class="pg-price-block">
@@ -462,12 +423,10 @@
             <li>Ideal para mais presença e performance</li>
           </ul>
           <div class="pg-shipping">FRETE GRÁTIS</div>
-          <!-- Troque o href pelo link real de checkout -->
           <a href="#checkout-virility" class="btn btn-ghost btn-full pg-btn">Comprar Virility</a>
           <img class="secure-purchase pg-secure" src="imgs/compra segura.webp" alt="Compra Segura">
         </div>
 
-        <!-- CARD 2: COMBO — MAIS RECOMENDADO -->
         <div class="price-card pg-card pg-featured reveal">
           <div class="price-glow-border"></div>
           <div class="pg-badge-top">MAIS RECOMENDADO</div>
@@ -477,7 +436,6 @@
           </div>
           <div class="pg-body">
             <div class="pg-product-img">
-              <!-- Substitua por imgs/combo-virility-prime.png -->
               <img class="pg-product-checkout" src="imgs/virility+prime-alpha.webp"
                 alt="Combo Man Intense Virility e Prime">
             </div>
@@ -498,12 +456,10 @@
             <li>Melhor custo-benefício da linha</li>
           </ul>
           <div class="pg-shipping">FRETE GRÁTIS</div>
-          <!-- Troque o href pelo link real de checkout -->
           <a href="#checkout-combo" class="btn btn-primary btn-full pg-btn">Comprar Combo</a>
           <img class="secure-purchase pg-secure" src="imgs/compra segura.webp" alt="Compra Segura">
         </div>
 
-        <!-- CARD 3: PRIME -->
         <div class="price-card pg-card reveal">
           <div class="pg-top">
             <strong class="pg-months">Man Intense Prime</strong>
@@ -511,7 +467,6 @@
           </div>
           <div class="pg-body">
             <div class="pg-product-img">
-              <!-- Substitua por imgs/prime.png -->
               <img class="pg-product-checkout" src="imgs/prime-alpha.webp" alt="Man Intense Prime">
             </div>
             <div class="pg-price-block">
@@ -530,7 +485,6 @@
             <li>Ideal para constância na rotina</li>
           </ul>
           <div class="pg-shipping">FRETE GRÁTIS</div>
-          <!-- Troque o href pelo link real de checkout -->
           <a href="#checkout-prime" class="btn btn-ghost btn-full pg-btn">Comprar Prime</a>
           <img class="secure-purchase pg-secure" src="imgs/compra segura.webp" alt="Compra Segura">
         </div>
@@ -539,9 +493,6 @@
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       8. FAQ
-  ═══════════════════════════════════════════ -->
   <section class="faq section-pad section-dark" id="faq">
     <div class="container">
       <div class="section-header reveal">
@@ -552,8 +503,7 @@
 
         <div class="faq-item">
           <button class="faq-q">Qual a diferença entre Virility e Prime?
-            <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="2">
+            <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <polyline points="6 9 12 15 18 9" />
             </svg>
           </button>
@@ -565,8 +515,7 @@
 
         <div class="faq-item">
           <button class="faq-q">Posso comprar os dois juntos?
-            <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="2">
+            <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <polyline points="6 9 12 15 18 9" />
             </svg>
           </button>
@@ -578,8 +527,7 @@
 
         <div class="faq-item">
           <button class="faq-q">É medicamento?
-            <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="2">
+            <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <polyline points="6 9 12 15 18 9" />
             </svg>
           </button>
@@ -591,8 +539,7 @@
 
         <div class="faq-item">
           <button class="faq-q">Como devo usar?
-            <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="2">
+            <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <polyline points="6 9 12 15 18 9" />
             </svg>
           </button>
@@ -604,8 +551,7 @@
 
         <div class="faq-item">
           <button class="faq-q">Os resultados são garantidos?
-            <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="2">
+            <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <polyline points="6 9 12 15 18 9" />
             </svg>
           </button>
@@ -617,8 +563,7 @@
 
         <div class="faq-item">
           <button class="faq-q">A entrega é discreta?
-            <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="2">
+            <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <polyline points="6 9 12 15 18 9" />
             </svg>
           </button>
@@ -632,9 +577,6 @@
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       9. CTA FINAL
-  ═══════════════════════════════════════════ -->
   <section class="final-cta">
     <div class="final-cta-glow"></div>
     <div class="container">
@@ -658,9 +600,6 @@
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       10. FOOTER
-  ═══════════════════════════════════════════ -->
   <footer class="footer">
     <div class="container">
       <div class="footer-inner">
