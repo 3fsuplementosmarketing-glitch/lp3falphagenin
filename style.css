@@ -55,7 +55,7 @@
   --space-sm: 16px;
   --space-md: 24px;
   --space-lg: 40px;
-  --space-xl: 80px;
+  --space-xl: 50px;
   --space-2xl: 120px;
 
   /* Typography */
@@ -544,7 +544,7 @@ button {
 
 .escolha-desc {
   font-size: 15px;
-  color: var(--text-muted);
+  color: var(--text-white);
   line-height: 1.5;
 }
 
@@ -560,7 +560,7 @@ button {
   align-items: flex-start;
   gap: 10px;
   font-size: 14px;
-  color: var(--text-muted);
+  color: var(--text-white);
   line-height: 1.4;
 }
 
@@ -737,7 +737,7 @@ button {
 
 .comp-mobile-sub {
   font-size: 13px;
-  color: var(--text-soft);
+  color: #fff;
   margin: 0;
   line-height: 1.4;
 }
@@ -773,7 +773,7 @@ button {
 
 .comp-mobile-item span {
   font-size: 14px;
-  color: var(--text-muted);
+  color: #fff;
   line-height: 1.5;
 }
 
