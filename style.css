@@ -1755,7 +1755,7 @@ button {
 
 /* Tabela de comparação em cima do fundo cyan */
 .section-dark .comp-table {
-  background: rgb(25 138 147 / 32%);
+  background: rgb(25 138 147 / 59%);
   border: 1px solid rgba(255, 255, 255, 0.24);
   box-shadow:
     0 28px 80px rgba(0, 17, 22, 0.28),
